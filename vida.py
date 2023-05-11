@@ -6,7 +6,7 @@ import matplotlib.animation as animation
 def initial_board(N):
     board = np.zeros((N, N))
     # Definimos algunos patrones iniciales aleatorios
-    num_points = 100 * 100 // 10
+    num_points = N * N // 10
     random_row = np.random.randint(0, N, size=num_points)
     random_col = np.random.randint(0, N, size=num_points)
     board[random_row, random_col] = 1
@@ -45,7 +45,7 @@ def update(frameNum, img, board, N):
     return img,
 
 # Definimos los parámetros del juego
-N = 100 # Tamaño de la matriz
+N = 200 # Tamaño de la matriz
 interval = 50 # Intervalo de tiempo entre frames en ms
 
 # Creamos la figura
