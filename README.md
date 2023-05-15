@@ -1,3 +1,3 @@
 # JuegoVida
 
-Juego de la vida, hecho con python.
+Distintas versiones del juego de la vida, hecho con python y chatgpt.
