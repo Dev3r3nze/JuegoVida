@@ -1,6 +1,6 @@
 # JuegoVida
 
-Distintas versiones del juego de la vida
+Distintas formas de hacer el juego de la vida
 
 ### Hecho con 
 Python y chatgpt.
